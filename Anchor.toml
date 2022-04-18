@@ -1,0 +1,17 @@
+[features]
+seeds = false
+[programs.localnet]
+crypto_donut = "3WLaHbMg2syxjgKcv5UPT5Gtnig4mg1KzAYinSP6tzxN"
+
+[programs.devnet]
+crypto_donut = "3WLaHbMg2syxjgKcv5UPT5Gtnig4mg1KzAYinSP6tzxN"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/onetakt/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
